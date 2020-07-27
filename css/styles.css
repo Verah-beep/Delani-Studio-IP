@@ -1,20 +1,18 @@
-#home {
-    background-position-x: center;
-    height: 500px;
-    width: 400px;
-    text-align: center;
-    color: aliceblue;
-    margin-top: 10px;
-    padding: 40px;
-    text-align: center;
 
+#home{
+    background-image: url("../image/h_img.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    padding-top: 10px;
+    color: aliceblue;
 }
 #about{
     text-align: center;
 }
 
 #services{
-background-image: url("images/assets/backgrounds/s_image.jpg");
+background-image: url("../image/s_image.jpg");
 }
 
  #services{  
@@ -48,8 +46,8 @@ color: white;
     
     }
 
-    #contact-us {
-        /* background-image: url("/IP3/assets/backgrounds/c_image.jpg"); */
+    #contactus {
+        background-image: url("../image/c_image.jpg");
         background-size: cover;
         color: white;
         text-align: center;
