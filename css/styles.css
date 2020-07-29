@@ -1,0 +1,94 @@
+body {
+    overflow-x: hidden;
+}
+#home{
+    background-image: url("../image/h_img.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    padding-top: 10px;
+    color: aliceblue;
+}
+#about{
+    text-align: center;
+}
+
+#services{
+background-image: url("../image/s_image.jpg");
+}
+
+ #services{  
+color: white;
+    background-size: cover;
+    height: 400px;
+    width: 1400px;
+}
+.row{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+*{
+    box-sizing: border-box;
+}
+
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8 {
+    display: none;
+    align-items: center;
+    font-size: 1.5em;
+ 
+    padding-left: 15px;
+    padding-right: 15px;
+    /* left: 50%; */
+    color: rgb(253, 253, 253);
+    background-color: gray;
+    margin-top: -200px;
+    display: flex;
+    }
+
+    .paragraph1, .paragraph2, .paragraph3 {
+        display: none;
+    
+    }
+
+    #contactus {
+        background-image: url("../image/c_image.jpg");
+        background-size: cover;
+        color: white;
+        text-align: center;
+        height: 700px;
+        width: 1500px;
+        text-align: center;
+        margin-left: -15px;
+        margin-right: -15px;
+        
+    }
+    textarea {
+        background: transparent;
+        border: 1px solid white;
+    }
+    input {
+        background-color: transparent;
+        width: 400px;
+        height: 30px;
+    }
+    ::placeholder{
+        color: white;
+    }
+    body{
+        text-align: center;
+    }
+    button{
+        background-color: aqua;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 12px;
+    }
+    
+    
