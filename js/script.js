@@ -1,7 +1,13 @@
 $(document).ready(function() {
+<<<<<<< HEAD
     $(".designco").click(function() {
         $(".designco").slideDown('1400').hide('1000');
         $(".paragraph1").show('1400');
+=======
+    $(".class1").click(function() {
+        $(".designco").slideDown('1400').hide('1000');
+        $("paragraph1").show('1400');
+>>>>>>> 16792ae08663002d692f2ef21b5bf8bfa0e70ea0
     });
     $(".paragraph1").click(function() {
         $(".paragraph1").slideUp('1400');
@@ -10,9 +16,15 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+<<<<<<< HEAD
     $(".devco").click(function() {
         $(".devco").slideDown('1400').hide('1000');
         $(".paragraph2").show('1400');
+=======
+    $(".class2").click(function() {
+        $(".devco").slideDown('1400').hide('1000');
+        $("paragraph2").show('1400');
+>>>>>>> 16792ae08663002d692f2ef21b5bf8bfa0e70ea0
     });
     $(".paragraph2").click(function() {
         $(".paragraph2").slideUp('1400');
@@ -21,9 +33,15 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+<<<<<<< HEAD
     $(".proco").click(function() {
         $(".proco").slideDown('1400').hide('1000');
         $(".paragraph3").show('1400');
+=======
+    $(".class3").click(function() {
+        $(".proco").slideDown('1400').hide('1000');
+        $("paragrapg3").show('1400');
+>>>>>>> 16792ae08663002d692f2ef21b5bf8bfa0e70ea0
     });
     $(".paragraph3").click(function() {
         $(".paragraph3").slideUp('1400');
@@ -31,6 +49,7 @@ $(document).ready(function() {
     });
 });
 
+<<<<<<< HEAD
 $(document).ready(function(){
     $(".asset4").mouseover(function(){
         $(".work4").show();
@@ -87,6 +106,79 @@ $(document).ready(function(){
         $(".work8").hide();
     });
 });
+=======
+$(".asset1").hover(
+    function () {
+        $(".asset1").show("");
+    },
+    function () {
+        $(".asset1").hide("");
+    }
+);
+
+$(".asset2").hover(
+    function () {
+        $(".asset2").show("");
+    },
+    function () {
+        $(".asset2").hide("");
+    }
+);
+
+$(".asset3").hover(
+    function () {
+        $(".asset3").show("");
+    },
+    function () {
+        $(".asset3").hide("");
+    }
+);
+
+$(".asset4").hover(
+    function () {
+        $(".asset4").show("");
+    },
+    function () {
+        $(".asset4").hide("");
+    }
+);
+
+$(".asset5").hover(
+    function () {
+        $(".asset5").show("");
+    },
+    function () {
+        $(".asset5").hide("");
+    }
+);
+
+$(".asset6").hover(
+    function () {
+        $(".asset6").show("");
+    },
+    function () {
+        $(".asset6").hide("");
+    }
+);
+
+$(".asset7").hover(
+    function () {
+        $(".asset7").show("");
+    },
+    function () {
+        $(".asset7").hide("");
+    }
+);
+
+$(".asset8").hover(
+    function () {
+        $(".asset8").show("");
+    },
+    function () {
+        $(".asset8").hide("");
+    }
+);
+>>>>>>> 16792ae08663002d692f2ef21b5bf8bfa0e70ea0
 
 function myFunction(){
     var name = document.getElementById("name").value;
@@ -97,6 +189,7 @@ function myFunction(){
     }
     else alert( name + " ,thanks for your replying.");
     }
+<<<<<<< HEAD
     
 
 
@@ -187,3 +280,6 @@ function myFunction(){
 //     }
 //     else alert( name + " ,thanks for your message, it is well received.");
 //     }
+=======
+    
+>>>>>>> 16792ae08663002d692f2ef21b5bf8bfa0e70ea0

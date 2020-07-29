@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 body {
     overflow-x: hidden;
 }
+=======
+
+>>>>>>> 16792ae08663002d692f2ef21b5bf8bfa0e70ea0
 #home{
     background-image: url("../image/h_img.jpg");
     background-size: cover;
@@ -34,6 +38,7 @@ color: white;
 
 .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8 {
     display: none;
+<<<<<<< HEAD
     align-items: center;
     font-size: 1.5em;
  
@@ -44,6 +49,15 @@ color: white;
     background-color: gray;
     margin-top: -200px;
     display: flex;
+=======
+    top: 50%;
+    font-size: 1.5em;
+    padding:15px 15px;
+    left: 50%;
+    color: rgb(253, 253, 253);
+    background-color: gray;
+    margin-top: -200px;
+>>>>>>> 16792ae08663002d692f2ef21b5bf8bfa0e70ea0
     }
 
     .paragraph1, .paragraph2, .paragraph3 {
