@@ -31,20 +31,26 @@ color: white;
 *{
     box-sizing: border-box;
 }
+.pic{
+    margin: 10px;
+    width: 100%;  
+
+}
 
 .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8 {
-    display: none;
-    align-items: center;
-    font-size: 1.5em;
- 
-    padding-left: 15px;
-    padding-right: 15px;
-    /* left: 50%; */
-    color: rgb(253, 253, 253);
-    background-color: gray;
-    margin-top: -200px;
-    display: flex;
-    }
+    display:none;
+    margin-top: -150px;
+    margin-left: 20px;
+    color:rgb(255, 255, 255);
+    opacity: 0.5;
+    background-color:rgb(0, 0, 0,0.5);
+    border-style: solid;
+    padding-bottom:20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+    
 
     .paragraph1, .paragraph2, .paragraph3 {
         display: none;
